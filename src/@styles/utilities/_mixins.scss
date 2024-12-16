@@ -1,0 +1,30 @@
+// Media Query Manager
+@mixin xl {
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media only screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media only screen and (max-width: 600px) {
+    @content;
+  }
+}

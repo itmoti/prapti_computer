@@ -1,0 +1,34 @@
+.hero_section {
+  background: url(/images/hero_bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -2rem;
+  padding: 10rem 0;
+
+  .hero_wrapper {
+    .hero_subtitle {
+      color: $primary-color;
+      font-size: 2rem;
+      line-height: 2.25rem;
+      text-transform: capitalize;
+      margin-bottom: 0.5rem;
+    }
+    .hero_title {
+      color: #ffffff;
+      font-size: 2.5rem;
+      line-height: 2.25rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      @include md {
+        font-size: 4rem;
+        line-height: 4.25rem;
+      }
+    }
+    .hero_text {
+      max-width: 40rem;
+      color: #ffffff;
+      font-size: 1rem;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'swiper/scss';
+@import 'swiper/scss/navigation';
+@import 'swiper/scss/pagination';
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,623;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// import app style
+@import './sass.variable';
+@import './utilities/index.scss';
+@import './core/index.scss';
+
+// global style
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: $text-color;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading-color;
+  font-family: 'rubik', sans-serif;
+}
+
+// common css class
+.section_meta {
+  .section_name {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: $primary-color;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+  }
+
+  .section_title {
+    color: $heading-color;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    @include md {
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+    }
+
+    &.has_line {
+      position: relative;
+      &::after {
+        content: '';
+        width: 100px;
+        height: 2px;
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: $primary-color;
+      }
+      &.line_left {
+        &::after {
+          left: 0;
+          transform: none;
+        }
+      }
+    }
+  }
+}
+
+.text_primary {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: $text-color;
+}
+
+.primary_btn {
+  display: inline-block;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 12px 30px;
+  background: $primary-color;
+  transition: 0.3s;
+  &:hover {
+    background: $primary-color-hover;
+  }
+}

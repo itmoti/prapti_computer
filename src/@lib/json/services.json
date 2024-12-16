@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Laptop",
+        "icon": "/images/service_icon1.svg",
+        "description": "MacBook, Asus , Lenovo, Hp all kinds of laptops we sell with full focused loyalty and warranty."
+    },
+    {
+        "title": "computers sale",
+        "icon": "/images/service_icon2.svg",
+        "description": "Any Brands Business Machine we supply as per our customer taste of choice in modifications."
+    },
+    {
+        "title": "Accessories",
+        "icon": "/images/service_icon3.svg",
+        "description": "We only supply or sell our authorized distributors products; In this matter we are very picky to select what we will sell or not because we are always concerned about after sell’s service."
+    },
+    {
+        "title": "Software solutions",
+        "icon": "/images/service_icon4.svg",
+        "description": "We are expertise in building ERP solutions for your business. We also provide ecommerce and inventory solutions for all type of business."
+    }
+]

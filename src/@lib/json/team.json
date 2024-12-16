@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Abdel ahnaf Raad",
+        "title": "CEO",
+        "image": "/images/pic1.png"
+    },
+    {
+        "name": "Ashfaq al zahin",
+        "title": "CFO",
+        "image": "/images/cfo.png"
+    },
+    {
+        "name": "Rahmat Khan",
+        "title": "Head of Accounts",
+        "image": "/images/accounts.png"
+    },
+    {
+        "name": "Sumaiya Rahman",
+        "title": "Accounts Executive",
+        "image": "/images/accounts2.png"
+    },
+    {
+        "name": "Karim Uddin",
+        "title": "Territory Manager",
+        "image": "/images/pic3.png"
+    },
+    {
+        "name": "Masrab al Haider",
+        "title": "Security Officer",
+        "image": "/images/security.png"
+    },
+    {
+        "name": "Tasnim ubaid al Zahra",
+        "title": "Admin",
+        "image": "/images/pic2.png"
+    },
+    {
+        "name": "Saoudh Ahmmed",
+        "title": "Administration Officer",
+        "image": "/images/pic1.png"
+    }
+]

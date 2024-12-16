@@ -1,0 +1,24 @@
+.help_section {
+  background: linear-gradient(#32284942, #32284942), url(/images/help_bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  padding: 8rem 0;
+  .help_wrapper {
+    text-align: center;
+    .help_title {
+      color: #fff;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      text-transform: capitalize;
+      @include md {
+        font-size: 2rem;
+        line-height: 2.5rem;
+      }
+    }
+    .text_primary {
+      color: #dddddd;
+    }
+  }
+}
